@@ -13,6 +13,10 @@ function copyImageToCanvas(){
 
 }
 
-setTimeout(()=>{
+// setTimeout(()=>{
+//     copyImageToCanvas();
+// }, 3000)
+
+window.addEventListener('scroll',() => {
     copyImageToCanvas();
-}, 3000)
+})

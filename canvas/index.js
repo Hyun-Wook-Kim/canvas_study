@@ -34,6 +34,7 @@ canvas.addEventListener('mousemove',(e)=>{
     mouse.x = e.x;
     mouse.y = e.y;
     particlesArray.push(new Particle())
+    console.log(particlesArray.length)
 })
 
 
